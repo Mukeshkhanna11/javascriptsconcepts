@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav h1 {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+section {
+    background-color: blue;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.views div {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+
+}
